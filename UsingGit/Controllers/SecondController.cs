@@ -11,6 +11,7 @@ namespace UsingGit.Controllers
         // GET: Second
         public ActionResult Index()
         {
+            Console.WriteLine("This is controller");
             return View();
         }
     }
